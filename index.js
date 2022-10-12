@@ -102,7 +102,7 @@ function show_score() {
     alt3.style.display = 'none';
     alt4.style.display = 'none';
 
-    score_div.innerHTML = "Score: " + points;
+    score_div.innerHTML = "You answered " + points + " out of " + questions.length + "questions correct!";
     score_div.style.display = 'block';
 }
 
