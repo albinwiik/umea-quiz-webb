@@ -39,13 +39,7 @@ alt2_btn.addEventListener('click', choice_selected);
 alt3_btn.addEventListener('click', choice_selected);
 alt4_btn.addEventListener('click', choice_selected);
 
-function set_question(question) {
-    question_div.innerHTML = question.question;
-    alt1.innerHTML = question.alt1;
-    alt2.innerHTML = question.alt2;
-    alt3.innerHTML = question.alt3;
-    alt4.innerHTML = question.alt4;
-}
+
 
 function choice_selected(e) {
 
@@ -117,4 +111,12 @@ function create_question(question, answer_index, alt1, alt2, alt3, alt4) {
     };
 
     return q;
+}
+
+function set_question(question) {
+    question_div.innerHTML = question.question;
+    alt1.innerHTML = question.alt1;
+    alt2.innerHTML = question.alt2;
+    alt3.innerHTML = question.alt3;
+    alt4.innerHTML = question.alt4;
 }
