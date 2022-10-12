@@ -85,10 +85,10 @@ function choice_selected(e) {
 start_button.addEventListener('click', () => {
     start_button.style.display = 'none';
     question_div.style.display = 'block';
-    alt1_btn.style.display = 'block';
-    alt2_btn.style.display = 'block';
-    alt3_btn.style.display = 'block';
-    alt4_btn.style.display = 'block';
+    alt1_btn.style.display = 'inline-block';
+    alt2_btn.style.display = 'inline-block';
+    alt3_btn.style.display = 'inline-block';
+    alt4_btn.style.display = 'inline-block';
 
     set_question(questions[0]);
 
@@ -102,7 +102,7 @@ function show_score() {
     alt3.style.display = 'none';
     alt4.style.display = 'none';
 
-    score_div.innerHTML = "You answered " + points + " out of " + questions.length + "questions correct!";
+    score_div.innerHTML = "Du svarade rätt på  " + points + " av " + questions.length + " frågor!";
     score_div.style.display = 'block';
 }
 
