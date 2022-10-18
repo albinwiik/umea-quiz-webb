@@ -46,7 +46,7 @@ questions.push(create_question("Vilket är Umeås stadsvapen?", 1,
 questions.push(create_question("Vilket år bildades Björklöven IF?", 1, 
                                "1970", "1990", "1950", "1963"));
 
-questions.push(create_questtion("Hur många SM-guld har Björklöven IF?", 4,
+questions.push(create_question("Hur många SM-guld har Björklöven IF?", 4,
                                 "4", "2", "0", "1"));
 
 questions.push(create_question("Vilket år invigdes Umeå flygplats?", 2,
