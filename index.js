@@ -16,7 +16,6 @@ alt2_btn.style.display = 'none';
 alt3_btn.style.display = 'none';
 alt4_btn.style.display = 'none';
 
-
 let points = 0;
 let question_index = 0;
 
@@ -61,13 +60,10 @@ questions.push(create_question("Vilken av artisterna kommer från Umeå?", 1,
 questions.push(create_question("Hur många år har Umeå vunnit sveriges bästa idrottsstad?", 3,
                                "5", "2", "3", "4"));
 
-
 alt1_btn.addEventListener('click', choice_selected);
 alt2_btn.addEventListener('click', choice_selected);
 alt3_btn.addEventListener('click', choice_selected);
 alt4_btn.addEventListener('click', choice_selected);
-
-
 
 function choice_selected(e) {
 
@@ -100,7 +96,6 @@ function choice_selected(e) {
     else {
         question_index++;
         set_question(questions[question_index]);
-    
     }
 }
 
