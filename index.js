@@ -32,6 +32,15 @@ questions.push(create_question("Vilket år grundades Umeå universitet?", 3,
                                "1867", "1785", "1965", "1943"));
 questions.push(create_question("Ungefär många studenter har Umeå universitet?", 1,
                                "38000", "49000", "28000", "43000"));
+questions.push(create_question("Vilket är skedde Stadsbranden i Umeå?", 2, 
+                                "1805", "1888", "1850", "1905"));
+questions.push(create_question("Vilket är Umeås stadsvapen?", 1, 
+                                "Tre renar", "Tre Bockar", "Örn", "Borg"));
+questions.push(create_question("Vilket år bildades Björklöven IF?", 1, 
+                               "1970", "1990", "1950", "1963"));
+questions.push(create_questtion("Hur många SM-guld har Björklöven IF?", 4,
+                                "4", "2", "0", "1"));
+
 
 
 alt1_btn.addEventListener('click', choice_selected);
