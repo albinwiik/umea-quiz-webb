@@ -24,14 +24,30 @@ let questions = new Array();
 
 questions.push(create_question("Hur många invånare har Umeå?", 4, 
                                "40000", "100000", "76000", "89000"));
+
 questions.push(create_question("Vilket år grundades umeå?", 3, 
                                "1846", "1571", "1622", "1732"));
+
 questions.push(create_question("Vilket år bränndes Umeå ner av Ryssarna?", 3,
                                "1814", "1798", "1714", "1692"));
+
 questions.push(create_question("Vilket år grundades Umeå universitet?", 3,
                                "1867", "1785", "1965", "1943"));
+
 questions.push(create_question("Ungefär många studenter har Umeå universitet?", 1,
                                "38000", "49000", "28000", "43000"));
+
+questions.push(create_question("Vilket år invigdes Umeå flygplats?", 2,
+                               "1982", "1962", "1953", "1978"));
+
+questions.push(create_question("Hur lång är Umeälven?", 2,
+                               "330km", "470km", "720km", "670km"));
+
+questions.push(create_question("Vilken av artisterna kommer från Umeå?", 1,
+                               "Fricky", "Veronica Maggio", "Magnus Uggla", "Håkan Hellström"));
+
+questions.push(create_question("Hur många år har Umeå vunnit sveriges bästa idrottsstad?", 3,
+                               "5", "2", "3", "4"));
 
 
 alt1_btn.addEventListener('click', choice_selected);
