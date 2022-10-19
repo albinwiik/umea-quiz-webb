@@ -27,7 +27,7 @@ questions.push(create_question("Hur många invånare har Umeå?", 4,
 questions.push(create_question("Vilket år grundades umeå?", 3, 
                                "1846", "1571", "1622", "1732"));
 
-questions.push(create_question("Vilket år bränndes Umeå ner av Ryssarna?", 3,
+questions.push(create_question("Vilket år brändes Umeå ner av Ryssarna?", 3,
                                "1814", "1798", "1714", "1692"));
 
 questions.push(create_question("Vilket år grundades Umeå universitet?", 3,
@@ -78,7 +78,7 @@ questions.push(create_question("Inom vilken av följande industrier är Umeå en
 questions.push(create_question("År 2014 blev Umeå utsett till Europas kulturhuvudstad. Med vilken figur symboliserades detta?", 1,
                                "Ett leende hjärta", "Ett björklöv", "Ett renhorn", "En snöflinga"));
 
-questions.push(create_question("Mellan Umeå och denna fiska stad går en fyra timmar lång färjersesa. Vad heter staden?", 2,
+questions.push(create_question("Mellan Umeå och denna finska stad går en fyra timmar lång färjersesa. Vad heter staden?", 2,
                                "Jakobstad", "Vasa", "Kalajoki", "Kristinestad"));
 
 
