@@ -15,9 +15,11 @@ body {
     text-decoration: none;
     display: block;
     font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: auto;
     margin-top: 100px;
     border-radius: 10px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #060606;
 
 }
 #question {
@@ -35,10 +37,13 @@ body {
     margin-top: 50px;
     margin-bottom: 0px;
     border-radius: 10px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #060606;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #score {
     background-color: #4CAF50;
-    border: none;
+    border: solid;
+    border-color: black;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -48,6 +53,9 @@ body {
     margin: auto;
     margin-top: 100px;
     border-radius: 10px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #060606;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 #alt1, #alt2, #alt3, #alt4 {
     background-color: #4CAF50;
@@ -59,11 +67,15 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 10px;
     margin-bottom: 0px;
     margin-left: 1px;
     margin-right: 1px;
     border-radius: 10px;
+    width: 300px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #060606;
+
 }
 #alternatives {
     display: block;
@@ -82,6 +94,8 @@ body {
     margin-top: 5%;
     color: white;
     border-color: #1a3f1b;
+    text-shadow: 0 0 3px #000000, 0 0 5px #060606;
+
 }
 
 #subtitle {
@@ -90,4 +104,6 @@ body {
     margin-top: 2.5%;
     color: white;
     text-align: center;
+    text-shadow: 0 0 3px #000000, 0 0 5px #060606;
+
 }
