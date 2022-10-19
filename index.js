@@ -72,7 +72,14 @@ questions.push(create_question("I vilken av följande städer har Umeå Universi
 questions.push(create_question("Säsongen 2021/2022 höll Björklöven IF på att ta sig upp i SHL, men förlorade i finalen. Mot vilket lag?", 3,
                                "MoDo", "Mora", "HV71", "Östersund"));
 
+questions.push(create_question("Inom vilken av följande industrier är Umeå en av västvärldens ledare?", 3,
+                               "Livsmedel", "Papper", "Bredband", "Stål"));
 
+questions.push(create_question("År 2014 blev Umeå utsett till Europas kulturhuvudstad. Med vilken figur symboliserades detta?", 1,
+                               "Ett leende hjärta", "Ett björklöv", "Ett renhorn", "En snöflinga"));
+
+questions.push(create_question("Mellan Umeå och denna fiska stad går en fyra timmar lång färjersesa. Vad heter staden?", 2,
+                               "Jakobstad", "Vasa", "Kalajoki", "Kristinestad"));
 
 
 alt1_btn.addEventListener('click', choice_selected);
