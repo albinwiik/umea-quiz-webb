@@ -60,6 +60,21 @@ questions.push(create_question("Vilken av artisterna kommer från Umeå?", 1,
 questions.push(create_question("Hur många år har Umeå vunnit sveriges bästa idrottsstad?", 3,
                                "5", "2", "3", "4"));
 
+questions.push(create_question("Vad kallas Umeå även för?", 3,
+                               "Tallarnas stad", "Granarnas stad", "Björkarnas stad", "Ekarnas stad"));
+
+questions.push(create_question("Vilket av följande företag är störst i Umeå? (antal anställda i orten)", 3,
+                               "Norrmejerier", "Konsum Nord", "Volvo Lastvagnar", "Ica Sverige AB"));
+
+questions.push(create_question("I vilken av följande städer har Umeå Universitet INTE underavdelningar?", 3,
+                               "Lycksele", "Skellefteå", "Härnösand", "Övik"));
+
+questions.push(create_question("Säsongen 2021/2022 höll Björklöven IF på att ta sig upp i SHL, men förlorade i finalen. Mot vilket lag?", 3,
+                               "MoDo", "Mora", "HV71", "Östersund"));
+
+
+
+
 alt1_btn.addEventListener('click', choice_selected);
 alt2_btn.addEventListener('click', choice_selected);
 alt3_btn.addEventListener('click', choice_selected);
